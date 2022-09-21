@@ -4,4 +4,8 @@
     if(n%i==0){
       factors++
     }
+  }if(factor ==2){
+    console.log(true);
+  }else {
+    console.log(false);
   }
